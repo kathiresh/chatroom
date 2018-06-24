@@ -1,0 +1,54 @@
+/**
+ * importer.scss
+ *
+ * The SCSS files imported below are compiled and included in the order
+ * they are listed.  Mixins, variables, etc. should be imported first
+ * so that they can be accessed by subsequent SCSS stylesheets.
+ *
+ */
+/* Fonts */
+/* Styles */
+body {
+  background: -webkit-linear-gradient(117deg, #7673ae, #fff4f4); }
+
+.chat-container {
+  background: #fff;
+  margin-top: 52px; }
+
+.chat-box-container {
+  width: 80%;
+  float: right;
+  height: 93vh;
+  background: #fff; }
+
+.msg {
+  padding: 10px !important;
+  margin: 0 !important; }
+
+.channels-container {
+  height: 93vh;
+  float: left;
+  width: 20%;
+  background: #fff;
+  border-right: 1px solid #c4c4c4; }
+  .channels-container ul {
+    list-style-type: none;
+    padding: 0; }
+  .channels-container ul li {
+    padding: 20px 16px 15px 20px;
+    cursor: pointer; }
+  .channels-container li:hover {
+    background: #ddd; }
+
+.navbar-default {
+  background: #b2dcdb !important;
+  z-index: 9;
+  height: 7vh; }
+
+.selected-room {
+  background: #ddd; }
+
+.align-center {
+  text-align: center; }
+
+/* Media Queries */

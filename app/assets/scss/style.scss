@@ -1,0 +1,61 @@
+//Styles
+body {
+    // background: -webkit-linear-gradient(117deg, rgb(96, 87, 246), rgb(216, 71, 99));
+    background: -webkit-linear-gradient(117deg, #7673ae, #fff4f4)
+}
+
+.chat-container {
+    background: $color-white;
+    margin-top: 52px;
+  }
+
+.chat-box-container {
+    width: 80%;
+    float: right;
+    height: 93vh;
+    background: $color-white;
+}
+
+.msg {
+    padding: 10px !important; 
+    margin: 0 !important; 
+}
+
+.channels-container {
+    height: 93vh;
+    float: left;
+    width: 20%;
+    background: $color-white;
+    border-right: 1px solid $gray-border;
+
+
+ul {
+    list-style-type: none;   
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 20px 16px 15px 20px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background: #ddd;
+  }
+   
+}
+
+
+.navbar-default {
+  background: #b2dcdb !important;
+  z-index: 9;
+  height: 7vh;
+}
+
+.selected-room {
+    background: #ddd;
+}
+
+.align-center {
+    text-align: center;
+}
